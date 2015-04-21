@@ -24,6 +24,7 @@ public class Texto {
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
+        System.out.println("Me cambiaron el titulo");
     }
     
     public boolean mismoNombre(Texto T)
