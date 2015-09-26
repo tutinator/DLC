@@ -34,6 +34,7 @@ public class Gestor extends SwingWorker<Void,Integer> {
     private VentanaProcesando ventProc;
     private String textosSinProcesar;
     private VentanaPalabra ventPalabra;
+    private int atributoNuevo;
 
    public Gestor(VentanaPrincipal v){
        listaTextos = new LinkedList<>();
